@@ -1,0 +1,39 @@
+:root {
+  /* Cores - Estilo Stark Editorial */
+  --bg-dark: #000000;
+  --bg-surface: #111111;
+  --bg-surface-hover: #1a1a1a;
+  
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --text-tertiary: #888888;
+  
+  /* Paleta Azul Profissional com Gradiente Triplo */
+  --accent-light: #4facfe;
+  --accent-primary: #007AFF;
+  --accent-dark: #0052D4;
+  --accent-gradient: linear-gradient(180deg, var(--accent-light) 0%, var(--accent-primary) 50%, var(--accent-dark) 100%);
+  --accent-glow: rgba(0, 122, 255, 0.2);
+  
+  --border-color: rgba(255, 255, 255, 0.15);
+  --border-color-hover: rgba(255, 255, 255, 0.3);
+  
+  --success: #10b981;
+  --error: #ef4444;
+  --warning: #f59e0b;
+  
+  /* Raio de borda (Suavizado conforme solicitado) */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+  
+  /* Tipografia */
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  
+  /* Transições */
+  --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: all 0.2s ease-out;
+}
