@@ -53,10 +53,10 @@ try {
     $mail->setFrom('audicao@techferrari.com', 'Sistema de Audições');
     
     // Destinatários
-    $mail->addAddress('davi-silva07@hotmail.com');
-    $mail->addAddress('deboraguerradelmondes@gmail.com');
-    $mail->addAddress('richard.delmondes@gmail.com');
-    $mail->addAddress('pr.ricardodelmondes@outlook.com');
+    $mail->addAddress('dexemplo@hotmail.com');
+    $mail->addAddress('dbexemplo@gmail.com');
+    $mail->addAddress('rexemplo@gmail.com');
+    $mail->addAddress('prexemplo@outlook.com');
 
     // Mapeamento de booleanos para "Sim/Não"
     $batizado = !empty($data['batizado']) && $data['batizado'] ? 'Sim' : 'Não';
