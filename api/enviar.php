@@ -45,7 +45,7 @@ try {
     $mail->Host       = 'mail.techferrari.com';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'audicao@techferrari.com';
-    $mail->Password   = 'Naza1700'; // VOCÊ PRECISA MUDAR ISSO ANTES DE SUBIR
+    $mail->Password   = '************'; 
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // SSL
     $mail->Port       = 465;
 
